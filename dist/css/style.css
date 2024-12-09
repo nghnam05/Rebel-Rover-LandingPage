@@ -151,6 +151,7 @@ html {
     .container {
         position: relative ;
         display: flex;
+        padding: 10px;
     }
     .logo {
         width: 150px;
@@ -192,6 +193,9 @@ html {
       
     }
 
+    .banner{
+        height : 400px;
+    }
     .link {
         color : black;
         border: none;
@@ -206,7 +210,7 @@ html {
         max-width: 300px;
     }
     .button-1 {
-        padding: 10px 30px;
+        padding: 10px 20px;
     }
     .box {
         padding: 0 20px;
@@ -228,6 +232,10 @@ html {
         grid-template-columns: 1fr;
         padding-right: 10px;
         gap: 200px;
+    }
+    .card {
+        width: 100%;
+        height: 300px;
     }
     .content {
         transform: translateY(0);
@@ -259,6 +267,7 @@ html {
     }
     .brand {
         margin-bottom: 20px;
+
     }
     .sp1 {
         font-size: 20px;
@@ -284,6 +293,10 @@ html {
     .ft {
         font-size:4px;
     }
+    .technology {
+        height: 200px;
+    }
+
 
   }
   
@@ -292,6 +305,7 @@ html {
         .container {
             position: relative ;
             display: flex;
+            padding: 10px;
         }
         .toggle {
             display : block;
@@ -310,7 +324,9 @@ html {
             visibility: hidden;
             z-index: 12;
         }
-
+        .banner{
+            height : 400px;
+        }
         .menu.active-menu {
             opacity: 1;
             visibility: visible;  
@@ -414,6 +430,9 @@ html {
 
         .ft {
             font-size: 6px;
+        }
+        .technology {
+            height: 250px;
         }
 
 
